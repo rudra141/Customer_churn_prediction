@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Customer Churn Prediction</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+        }
+
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 5px;
+        }
+
+        h1 {
+            text-align: center;
+            color: #333;
+            font-family: 'Pacifico', cursive;
+        }
+
+        label {
+            font-weight: bold;
+        }
+
+        input[type="text"] {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        button {
+            background-color: #007BFF;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+            border-radius: 5px;
+            display: block;
+            margin: 0 auto;
+        }
+
+        button:hover {
+            background-color: #0056b3;
+        }
+
+        #result {
+            text-align: center;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Customer Churn Prediction</h1>
+        <form action="{{ url_for('predict') }}" method="post">
+            <label for="gender">Gender:</label>
+            <input type="text" name="gender" placeholder="0 for Female, 1 for Male" required="required">
+            <label for="location">Location:</label>
+            <input type="text" name="location" placeholder="Enter Location Code (LA: 2, New York: 4,Miami: 3,Houston: 1,Chicago: 0)" required="required">
+            <label for="age">Age Group:</label>
+            <input type="text" name="age" placeholder="Enter Age Group(Young: 0,Middle-Aged: 1,Old: 2)" required="required">
+            <button type="submit" class="btn btn-primary btn-block btn-large">Predict Churn</button>
+        </form>
+        <br>
+        <br>
+        {% if prediction_text %}
+        <div id="result">
+            <h2>{{ prediction_text }}</h2>
+        </div>
+        {% endif %}
+    </div>
+</body>
+
+</html>
