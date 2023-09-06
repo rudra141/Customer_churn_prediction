@@ -1,6 +1,6 @@
 # Customer Churn Prediction
 
-![Project Logo](project_logo.png) *(if applicable)*
+![Customer-Churn](https://github.com/rudra141/Customer_churn_prediction/assets/111697664/fb6530df-b06e-4efd-8b93-96eb438734a5)
 
 ## Table of Contents
 
@@ -37,7 +37,9 @@ Before getting started, make sure you have the following prerequisites:
    git clone https://github.com/yourusername/your-repo.git
 # Customer Churn Prediction
 
-![Project Logo](.png) *(if applicable)*
+
+![Customer-Churn-video](https://github.com/rudra141/Customer_churn_prediction/assets/111697664/f12bd24c-93dc-4f67-9923-b106f97d4c88)
+
 
 ## Table of Contents
 
