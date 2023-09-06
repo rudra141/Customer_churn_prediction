@@ -38,7 +38,7 @@ Before getting started, make sure you have the following prerequisites:
 # Customer Churn Prediction
 
 
-![Customer-Churn-video](https://github.com/rudra141/Customer_churn_prediction/assets/111697664/f12bd24c-93dc-4f67-9923-b106f97d4c88)
+https://github.com/rudra141/Customer_churn_prediction/assets/111697664/f12bd24c-93dc-4f67-9923-b106f97d4c88
 
 
 ## Table of Contents
