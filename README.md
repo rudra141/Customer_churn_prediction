@@ -4,7 +4,7 @@
 ![Customer-Churn](https://github.com/rudra141/Customer_churn_prediction/assets/111697664/fb6530df-b06e-4efd-8b93-96eb438734a5)
 
 
-# Video 
+## Video 
 -------------------------------------------------------------------------------------------------------------------------------
 
 https://github.com/rudra141/Customer_churn_prediction/assets/111697664/f12bd24c-93dc-4f67-9923-b106f97d4c88
@@ -30,20 +30,20 @@ The Customer Churn Prediction project aims to predict customer churn based on hi
 --------------------------------------------------------------------------------------------------------------------------------
 To use this project, follow the instructions below to set up and run the prediction model.
 
-### Prerequisites
+## Prerequisites
 --------------------------------------------------------------------------------------------------------------------------------
 Before getting started, make sure you have the following prerequisites:
 
 - Python (>=3.6)
 - Git
 
-### Installation
+## Installation
 --------------------------------------------------------------------------------------------------------------------------------
 1. Clone the repository:
 
    ```bash
    git clone https://github.com/yourusername/your-repo.git
-### Usage
+## Usage
 --------------------------------------------------------------------------------------------------------------------------------
 To use the Customer Churn Prediction model:
 
@@ -66,7 +66,7 @@ View the Prediction:
 
 The prediction will be displayed on the web page.
 
-### Model Deployment
+## Model Deployment
 ---------------------------------------------------------------------------------------------------------------------------------
 The machine learning model is deployed using Flask in a local environment. If you need to deploy it in a production-like environment, consider using a hosting service and configuring it accordingly. Ensure that the model can take new customer data as input and provide churn predictions.
 
@@ -77,19 +77,19 @@ python app.py
 Access the Web Interface
 Open your web browser and go to http://localhost:5000.
 
-### Important Note
+## Important Note
 ---------------------------------------------------------------------------------------------------------------------------------------
 For production deployment, you should use a production-ready web server (e.g., Gunicorn) and configure it to serve your Flask application.
 
-### Contributing
+## Contributing
 ---------------------------------------------------------------------------------------------------------------------------------------
 We welcome contributions to this project. If you want to contribute, please follow our guidelines in CONTRIBUTING.md. You can also report issues or request new features through our issue tracker.
 
-### License
+## License
 ----------------------------------------------------------------------------------------------------------------------------------------
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-### Acknowledgments
+## Acknowledgments
 ----------------------------------------------------------------------------------------------------------------------------------------
 [List any third-party libraries or tools used]
 [Thank any contributors or resources that helped during development]
